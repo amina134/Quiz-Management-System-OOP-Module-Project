@@ -72,16 +72,7 @@ This Object-Oriented Programming (OOP) project aims to develop a comprehensive s
 
 ---
 
-## Getting Started
-- Define modules and create comprehensive quizzes.
-- Manage quizzes efficiently to ensure smooth student access and participation.
-- Use the analysis tools to enhance teaching effectiveness.
 
----
 
-## Final Notes
-This system aims to foster an interactive and insightful assessment environment, supporting continuous learning and improving educational outcomes.
 
----
 
-Would you like assistance in designing the class architecture, implementation details, or sample code snippets?
