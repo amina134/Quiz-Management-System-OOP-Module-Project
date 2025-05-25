@@ -1,61 +1,87 @@
-Quiz Management System – OOP Module Project
+# Quiz Management System – OOP Module Project
 
-📌 Project Overview
-This project is an Object-Oriented Programming (OOP) assignment that aims to build a Quiz Management System for multiple-choice assessments (QCMs). The system allows teachers to create and manage quizzes for various subjects, and enables students to test their knowledge by taking quizzes and reviewing their scores and corrections.
+Welcome to the **Quiz Management System** project! This system is designed to facilitate efficient creation, management, and participation in multiple-choice quizzes (QCMs) for educational purposes. It caters to both teachers and students, providing a robust platform for assessment and learning.
 
-👥 Target Users
-Teachers: Create, edit, and manage quizzes.
+---
 
-Students: Take quizzes and receive feedback.
+## 📌 Project Overview
+This Object-Oriented Programming (OOP) project aims to develop a comprehensive system that allows teachers to create and manage quizzes, and students to participate, review, and analyze their performance.
 
-🎯 Main Features
-🧑‍🏫 For Teachers
-Create a new quiz for a specific module.
+---
 
-View a quiz by module.
+## 👥 Target Users
 
-Delete a quiz for a given module.
+### Teachers
+- Create new quizzes for different subjects/modules
+- View and manage existing quizzes
+- Edit or delete quizzes
+- Review students' scores and participation
+- Analyze question performance to improve teaching
 
-Modify an existing quiz.
+### Students
+- Log in securely with personal information
+- Access available quizzes
+- Take quizzes (once per module)
+- Receive instant scores and feedback
+- View previous results and corrections
 
-View the list of students who took a quiz along with their scores.
+---
 
-Analyze each question in a quiz:
+## 🎯 Main Features
 
-Show the percentage of correct and incorrect answers to identify concepts that need reinforcement.
+### **Features for Teachers**
+- **Create Quizzes:** Design new quizzes for specific modules/subjects.
+- **View Quizzes:** Browse existing quizzes filtered by module.
+- **Edit/Modify Quizzes:** Update questions, options, or other quiz details.
+- **Delete Quizzes:** Remove quizzes that are no longer needed.
+- **View Student Results:** See a list of students who took a quiz and their respective scores.
+- **Question Analysis:** Review how students performed on individual questions:
+  - Percentage of correct responses
+  - Percentage of incorrect responses
+  - Identify concepts that need reinforcement
 
-👩‍🎓 For Students
-Login with: Name, Surname, Group, and National ID (NCIN).
+---
 
-View available quizzes, indicating those already taken vs. not yet attempted.
+### **Features for Students**
+- **Secure Login:** Access the platform with Name, Surname, Group, and National ID (NCIN).
+- **View Available Quizzes:**
+  - See which quizzes are available
+  - Recognize quizzes already attempted
+- **Take Quizzes:** Complete each quiz once per module.
+- **Score Feedback:** Receive immediate scoring upon submission.
+- **Review Past Results:** Access scores for previously taken modules.
+- **Access Corrections:** View questions, correct options, and explanations after completing a quiz.
 
-Choose and take a quiz (once per module only).
+---
 
-Receive score upon submission.
+## 📝 Quiz Structure
 
-Access their quiz scores for previously taken modules.
+### **Quiz**
+- **Subject/Module:** For example, OOP, Database, COO, etc.
+- **Author:** The creator of the quiz.
+- **Set of QCMs:** Contains multiple-choice questions.
 
-View quiz corrections (only after completing the quiz).
+### **QCM (Question)**
+- **Question Number:** Sequential identifier.
+- **Question Text:** The main question posed.
+- **Options:** List of four or more options.
 
-📘 Quiz Structure
-A Quiz:
+### **Option**
+- **Text:** The answer choice.
+- **Validity:** Indicates whether it is Correct or Incorrect.
 
-Subject/Module (e.g., OOP, DB, COO, etc.)
+---
 
-Author (creator name)
+## Getting Started
+- Define modules and create comprehensive quizzes.
+- Manage quizzes efficiently to ensure smooth student access and participation.
+- Use the analysis tools to enhance teaching effectiveness.
 
-Set of QCMs (multiple-choice questions)
+---
 
-A QCM:
+## Final Notes
+This system aims to foster an interactive and insightful assessment environment, supporting continuous learning and improving educational outcomes.
 
-Question number
+---
 
-Question text
-
-List of options
-
-An Option:
-
-Text
-
-Validity (Correct / Incorrect)
+Would you like assistance in designing the class architecture, implementation details, or sample code snippets?
